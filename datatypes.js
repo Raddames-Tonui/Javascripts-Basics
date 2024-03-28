@@ -1,4 +1,4 @@
-// DATATYPES - TYPES primitive and objects
+                // DATATYPES - TYPES primitive and objects
 // Everything in JavaScript is data except:
 
 // Operators: +, !, <=, etc.
@@ -24,8 +24,6 @@ console.log(typeof married); //boolean
 // falsey include false, null, undefined, NaN, 0
 console.log(Boolean(married));
 
-
-
 let num1 = 5/0 //infinity
 console.log(typeof num1 );
 
@@ -40,8 +38,6 @@ console.log(num3); //cuts the values
 
 const fruits =["mangoes", "Oranges", "apples", "avocadoes"]; //objects 
 console.log(typeof fruits);
-
-
 
 let num4 = 1050505050050050505051n //to display all the number in terminal add n at the end
 console.log(num4); //displays all values

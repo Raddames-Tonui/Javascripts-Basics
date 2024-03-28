@@ -7,7 +7,7 @@
 
  console.log("Hello world"); 
 
-//  VARIABLES - let const var
+            //  VARIABLES - let const var
 let f_name = "Raddames";  //string
 let l_name = "Tonui";
 let age = 40;  // number
@@ -19,7 +19,7 @@ console.log("My name is "+ f_name );
 console.log(f_name +" "+ l_name);
 console.log("my name is "+ f_name +" "+ l_name +" and I am " + age +" and I am in "+ school );
 
-// DATATYPES - string, number, boolean, undefined, null, , symbols, objects
+            // DATATYPES - string, number, boolean, undefined, null, , symbols, objects
 // primitive & objects
 // let fruits = [" oranges" , "mangoes", "pineapple" , "quavas"]  // objects
 let fruit = "apple";
@@ -35,7 +35,7 @@ console.log("My name is "+ f_name +" "+ l_name +" and I am " + age +" MY Marriag
 
 
    
-// LOGICS 
+                        // LOGICS 
 //   ! NOT -negate a statement 
 
 let ischild = false;
@@ -58,7 +58,8 @@ let falseyValue = undefined;
 
 console.log(Boolean(!0 && "false"));
 
-//CONDITONAL STATEMENTS
+                //CONDITONAL STATEMENTS
+    // IF ELSE
 age = 10;
 
 if ( age <= 18)
@@ -74,10 +75,8 @@ else
     console.log(" is an adult");
 }
 
-// SWITCH
+    // SWITCH
 let day = "Thursday"
-
-
 
 switch(day){
     case "Monday":

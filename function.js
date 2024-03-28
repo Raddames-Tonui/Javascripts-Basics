@@ -1,34 +1,40 @@
-const age =30;
-let isadult = age >= 18;
-console.log(isadult);
-    
-const h=58;
-let istall ;
-h >=60 ? (istall = true) : (istall =false);
 
-console.log(istall);
-
-            // FUNCTION
-function sayhello(){
-    console.log("hello Raddames")
+            // FUNCTION  is an object that contains a sequence of JavaScript statements. We can execute or call it multiple times.
+           //  https://player.vimeo.com/video/546183787?title=0&byline=0&portrait=0
+function sayHello(){
+  console.log("Hello world")
 }
-sayhello()  // Function calling
+
+sayHello() // Function calling
+
+      //using VARIABLE to declare function eg hiRadde
+      //NOTE : Hoisting - inability to call a function
+ 
+  const hiRadde = function(){  
+  console.log("Hi raddames");
+ }
+//  hiRadde();
+
+      //PARAMETERS  eg name
+function sayHi(name){
+  console.log("Hello " + name);
+}
+ sayHi("Raddames");
 
         // ARGUMENTS
   // Arguments give us a way to pass information into a function to make our functions more flexible.
-//    We pass the argument at the time that we call the function, 
-//    by including it inside the parentheses after the name of the function:
-function doSomething(thing) {
-    console.log(thing);
-  }
-  
-  doSomething("print anything"); // passing the argument 'anything' into our function
+  //    We pass the argument at the time that we call the function, 
+ //    by including it inside the parentheses after the name of the function:
+
+      //  passing the argument 'anything' into our function
+
 
   firstName = ["Guadalupe", "Jane"," Raddames","Tonui"]
-  function sayHelloTo(firstName) // A parameter is a placeholder that stores whatever value gets passed in as an argument.
-   {
-    console.log(`Hello, ${firstName}!`);
-  }
- console.log(firstName); // this will print out everyone in the array
- console.log(firstName[2]) // This will access the second person in the array
-  
+  output = sayHelloTo(firstName)
+
+
+
+//  console.log(firstName); // this will print out everyone in the array
+//  console.log(sayHelloTo()) ;// This will access the second person in the array
+
+
