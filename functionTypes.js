@@ -26,8 +26,7 @@ console.log(summ);
     function mycallback(a,b){
          return a + b;
     } 
-    const sum = mycallback(6,7);     // Call mycallback with arguments 6 and 7 
-
+    const sum = mycallback(6,7);     // Call mycallback with arguments 6 and 7
     console.log(sum);
 
 // ------------------------------------------------------------------------------------------------
@@ -51,4 +50,17 @@ const returnarrownfun = arrowfun();// Call arrowfun to get the unnamed arrow fun
 
 returnarrownfun(); // Call the returned arrow function to see its behavior Output: returning unnamed arrow function
 
+// ------------------------------------------------------------------------------------------------
+                            // d) HIGHER ORDER FUNCTION
+// ------------------------------------------------------------------------------------------------
 
+function add(a, b) {
+    return a + b;
+}
+
+function callBackAdd(callback, a, b) {
+    return callback(a, b); // Pass a and b as separate arguments to the callback
+}
+
+const output = callBackAdd(add, 5, 6);
+console.log(output); // Output: 11

@@ -10,8 +10,8 @@ sayHello() // Function calling
       //using VARIABLE to declare function eg hiRadde
       //NOTE : Hoisting - inability to call a function
  
-  const hiRadde = function(){  
-  console.log("Hi raddames");
+const hiRadde = function(){  
+        console.log("Hi raddames");
  }
 //  hiRadde();
 
@@ -22,19 +22,13 @@ function sayHi(name){
  sayHi("Raddames");
 
         // ARGUMENTS
-  // Arguments give us a way to pass information into a function to make our functions more flexible.
+   // Arguments give us a way to pass information into a function to make our functions more flexible.
   //    We pass the argument at the time that we call the function, 
  //    by including it inside the parentheses after the name of the function:
-
-      //  passing the argument 'anything' into our function
+//  passing the argument 'anything' into our function
 
 
   firstName = ["Guadalupe", "Jane"," Raddames","Tonui"]
-  output = sayHelloTo(firstName)
-
-
-
-//  console.log(firstName); // this will print out everyone in the array
-//  console.log(sayHelloTo()) ;// This will access the second person in the array
-
+  let array1 = sayHi(firstName)
+console.log(array1); // Hello Guadalupe,Jane, Raddames,Tonui
 
